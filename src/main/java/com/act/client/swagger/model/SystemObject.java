@@ -21,6 +21,12 @@ import java.util.Objects;
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-08-23T12:00:13.972Z")
 public class SystemObject {
 
+  private String value;
+
+  public SystemObject(String value) {
+    this.value = value;
+  }
+
   @Override
   public boolean equals(java.lang.Object o) {
     if (this == o) {
