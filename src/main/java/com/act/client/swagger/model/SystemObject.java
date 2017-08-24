@@ -27,6 +27,14 @@ public class SystemObject {
     this.value = value;
   }
 
+  public String getValue() {
+    return value;
+  }
+
+  public void setValue(String value) {
+    this.value = value;
+  }
+
   @Override
   public boolean equals(java.lang.Object o) {
     if (this == o) {
