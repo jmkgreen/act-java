@@ -1,0 +1,10 @@
+{
+  "groupId":"com.act",
+  "artifactId":"act-client",
+  "artifactVersion":"1.0.0",
+  "library":"feign",
+  "apiPackage":"com.act.client.swagger.api",
+  "modelPackage":"com.act.client.swagger.model",
+  "java8": true,
+  "dateLibrary": "java8"
+}
